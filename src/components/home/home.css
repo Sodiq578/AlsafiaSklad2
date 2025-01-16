@@ -1,0 +1,183 @@
+.dashboard {
+  width: 100%;
+}
+
+.home_search {
+  min-width: 380px;
+  margin-right: 10px;
+}
+
+.search_btn {
+  background: #1891d1;
+  height: 39px;
+}
+
+.product_image {
+  width: 200px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 10px; /* Yumaloqlangan burchaklar */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Yengil soya */
+  border: 2px solid #ddd; /* Chegaralar */
+}
+
+
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  width: 400px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.data_box {
+    transition: 0.5s;
+}
+
+.data_box:hover {
+  background: #dedada;
+}
+
+
+/* ..................  */
+
+
+
+/* Jadvalning umumiy uslubi */
+.data_box {
+  background-color: #ffffff;
+  transition: background-color 0.3s ease;
+}
+
+.data_box:hover {
+  background-color: #f9f9f9; /* Hoverda fon rangi */
+}
+
+/* Jadvalning hujayralari */
+td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: left;
+  font-family: Arial, sans-serif;
+}
+
+/* Nomlar uchun uslub */
+.data_name_cell {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.data_name_link {
+  color: #007bff; /* Ko'k rang */
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.data_name_link:hover {
+  color: #0056b3; /* Quyuqroq ko'k rang */
+  text-decoration: underline; /* Tagiga chizish */
+}
+
+/* Rasm uchun uslub */
+.data_image_cell {
+  text-align: center;
+}
+
+.data_image {
+  width: 100px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 5px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.data_image:hover {
+  transform: scale(1.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Tugmalar bo'limi */
+.action_buttons {
+  display: flex;
+  justify-content: end;
+  gap: 10px;
+}
+
+.action_cart_button {
+  background-color: transparent;
+  border: none;
+  color: #28a745; /* Yashil */
+  cursor: pointer;
+  transition: transform 0.2s ease, color 0.3s ease;
+}
+
+.action_cart_button:hover {
+  color: #218838; /* Quyuqroq yashil */
+  transform: scale(1.1);
+}
+
+.action_edit_button {
+  background-color: transparent;
+  border: none;
+  color: #007bff; /* Ko'k */
+  cursor: pointer;
+  transition: transform 0.2s ease, color 0.3s ease;
+}
+
+.action_edit_button:hover {
+  color: #0056b3; /* Quyuqroq ko'k */
+  transform: scale(1.1);
+}
+
+.action_delete_button {
+  background-color: transparent;
+  border: none;
+  color: #dc3545; /* Qizil */
+  cursor: pointer;
+  transition: transform 0.2s ease, color 0.3s ease;
+}
+
+.action_delete_button:hover {
+  color: #b21f2d; /* Quyuqroq qizil */
+  transform: scale(1.1);
+}
+
+/* Tugma ichidagi ikonka */
+.action_icon {
+  width: 20px;
+  height: 20px;
+}
+
+/* Boshqa hujayralar */
+.data_total_amount_cell,
+.data_quantity_sold_cell,
+.data_remaining_amount_cell,
+.data_price_cell,
+.data_total_price_cell,
+.data_revenue_cell {
+  color: #333; /* Matn rangi */
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+
+.data_total_amount_cell:hover,
+.data_quantity_sold_cell:hover,
+.data_remaining_amount_cell:hover,
+.data_price_cell:hover,
+.data_total_price_cell:hover,
+.data_revenue_cell:hover {
+  background-color: #e9ecef; /* Hoverda fon rangi */
+}
